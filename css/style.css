@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image:url(/image/background_4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#logo{
+    border-radius: 50px !important;
+}
+.header img{
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: 10px;
+}
+
+#login{
+    float:right;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    background:rgba(221, 205, 201, 0.349);
+    width:100px
+}
+
+.topic {
+    color: wheat;
+    font-weight: 400;
+    padding-top: 300px;
+    padding-bottom: 0;
+}
+.desc{
+
+    color:wheat;
+    font-weight: bolder;
+    font-style: italic;
+    padding-bottom: 50px;
+
+}
+
+.input-group{
+    
+    border-radius: 50px !important;
+    
+    width: 90%;
+    border-color: gainsboro;
+    margin: auto;
+    padding-bottom: 200px;
+    max-width: 600px;
+        
+}
+
+#Search{
+    background-image: linear-gradient(rgba(245, 222, 179, 0.26),rgba(255, 255, 0, 0.308));
+    border-color: white;
+    border-radius: 10px !important;
+    color: white;
+}
+.destinations{
+    padding: 100px 0;
+    background-color:gainsboro;
+
+}
+.destinations h2{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.price{
+    background-color:gold;
+    border-radius: 50px !important;
+    width: 70px;
+    height: 70px;
+    padding:15px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 40%;
+    position: relative;
+}
+
+.country{
+    width: 150px;
+    height: 30px;
+    background-color:white;
+    color:black;
+    font-weight: bolder;
+    margin-top: -100px ;
+    margin-bottom: -40px;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    margin-left: 30%;
+    border-radius: 50px !important;
+    
+    font-style: italic;
+}
+
+.card{
+    border-color: transparent;
+}
+
+.card img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.offer{
+    background-image: url(/image/travel_p_4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 15% 0;
+    
+}
+
+#offer-1{
+    padding: 100px 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.678);
+    text-align: left;
+
+}
+
+.booking{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border-color:white;
+    background: rgba(53, 146, 126, 0.664);
+    color: white;
+
+}
+
+.review{
+    padding: 100px 0;
+}
+
+.review img{
+    padding: 10px 10px;
+    height: 90px;
+    width:90px;
+    border-radius: 50px !important;
+    align-items: center;
+}
+
+#user{
+    box-shadow: rgba(197, 62, 28, 0.493);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(104, 12, 105, 0.87), rgba(17, 16, 16, 0.747));
+    height: 80%;
+}
+
+#footerlogo{
+    border-radius: 100px !important;
+    padding: 10px 10px;
+    height: 200px;
+    width: 200px;
+    
+}
