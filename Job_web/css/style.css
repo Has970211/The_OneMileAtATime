@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image: url(/Image/job_1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 150px !important;
+    border-color: black;
+}
+
+.menu-bar{
+    width: 100%;
+    background-image: linear-gradient(rgba(32, 228, 235, 0.877), rgba(12, 204, 86, 0.712));
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight:bold;
+    color: white; 
+    margin: 10px;   
+}
+
+.intro{
+    padding: 200px 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    background-image: linear-gradient(rgba(10, 10, 10, 0), black);
+       
+}
+
+#search{
+    width:90%;
+    align-items: center;
+}
+
+#searchbtn{
+    background-image: linear-gradient(rgba(rgba(255, 255, 255, 0.493), rgba(0, 0, 0, 0.747)));
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.recruiters{
+    padding: 100px 100px;
+    width: 100%;
+}
+
+.recruiters h3::before{
+    content: '';
+    background-image: linear-gradient(black,white);
+    height: 50px;
+    width: 70px;
+    position:absolute;
+    z-index: -1;
+    margin-top: -32px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 100px;
+
+
+}
+
+.recruiters img{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px 10px;
+}
+
+
+
+#exp {
+    border-color: transparent;
+    border-radius: 100px;
+    
+}
+
+.footer{
+    background-image: linear-gradient(rgba(63, 187, 110, 0.527), rgba(138, 137, 221, 0.753),rgb(134, 144, 146));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer img{
+    width: 75px;
+    height: 75px;
+    border-radius: 150px !important;
+    border-color: black;
+    margin: 30px 50px;
+}
+
+.sign-in{
+   
+        padding: 70px 100px;
+        background-image: linear-gradient(rgba(5, 5, 5, 0.288), rgb(245, 236, 236));
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        
+    
+}
+
+.sign-in h3::before{
+    content: '';
+    background-image: linear-gradient(black,white);
+    height: 50px;
+    width: 70px;
+    position:absolute;
+    z-index: 0;
+    margin-top: -40px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 100px;
+    
+
+
+}
+
+.sign-in{
+    background-image: url(/Image/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+
+}
+
+#form{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.432), rgba(0, 0, 0, 0.384));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    padding: 50px 50px;
+}
+
+#submit{
+    background-image: linear-gradient(rgba(rgba(255, 255, 255, 0.288), rgba(0, 0, 0, 0.336)));
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
